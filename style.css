@@ -10,6 +10,17 @@ body {
     padding: 0px;
 }
 
+main{
+/* width: 80vw; */
+margin: 0 auto;
+margin-top: 50px;
+}
+
+/* common Style  */
+.text-center{
+    text-align: center;
+}
+
 /* header style */
 
 .banner{
@@ -37,4 +48,54 @@ body {
     color: #FFFFFF;
     font-size: 50px;
     font-weight: 600;
+}
+/* hero section style  */
+.hero{
+    width: 50%;
+    margin: 0 auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+.offer-title{
+    color: #FF0000;
+    font-weight: bold;
+    font-size: 60px;
+}
+.hero-subtitle{
+    color: #FF0000;
+    font-weight: normal;
+    font-size: 13px;
+}
+.hero-title{
+    color: #070211;
+    font-size: 30px;
+}
+.catagory{
+    text-align: center;
+}
+/* party style */
+.welcome-party{
+    background-image: url('images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 60px;
+    align-items: center;
+    padding: 30px 100px;
+    border-radius: 10px;
+}
+.party-title{
+    font-size: 40px;
+    color: #FFFFFF;
+}
+.party-description{
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.link{
+    color: #FFFFFF;
 }
